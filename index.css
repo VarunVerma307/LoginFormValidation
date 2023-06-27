@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color: whitesmoke;
+    height: 60%;
+    width: 37%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+
+}
+input{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    
+}
+.submit{
+    width: 70%;
+    align-items: center;
+    margin: 5%;
+   
+
+}
+.username {
+    width: 100%; 
+    margin: 5%;
+}
+.password {
+    width: 100%; 
+    margin: 5%;
+}
+
+.submit input{
+
+    height: 35px;
+    background-color: cadetblue;
+    font-size: 25px;
+    border-radius: 2%;
+}
+.error{
+    color: red;
+    padding: 3px;
+    margin: 2px;
+    font-size: 20px;
+    
+}
